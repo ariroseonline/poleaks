@@ -23,7 +23,7 @@ $(document).ready(function(){
 	});
 
 
-	$('.leaks').on('click', '.leak-meta-content', function() {
+	$('.leaks').on('click touchend', '.leak-meta-content', function() {
 			$('.player').attr('src', null); 
 			$('.player-wrapper').hide(); //hide all currently running players
 			$('.leak-meta-content').show(); //show all leak metacontents again 
