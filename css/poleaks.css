@@ -41,7 +41,7 @@ h1 {
 
 .leak-overlay-content {
   position: absolute;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.75);
   color: white;
   z-index: 1;
   top: 0;
